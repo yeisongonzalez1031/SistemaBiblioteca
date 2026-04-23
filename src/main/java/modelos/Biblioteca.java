@@ -4,10 +4,17 @@
  */
 package modelos;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author ESTUDIANTE
  */
 public class Biblioteca {
+    
+    private ArrayList<Categoria> categorias;
+    private ArrayList<Autor> autores;
+    private ArrayList<Prestamo> prestamos;
+    
     
 }
