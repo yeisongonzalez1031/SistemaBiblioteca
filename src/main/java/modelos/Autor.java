@@ -19,7 +19,7 @@ public class Autor {
 
     public Autor(String pais, int nombre) {
         this.pais = pais;
-        this.
+        this.nombre= nombre;
     }
 
     public static int getId() {
