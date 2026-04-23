@@ -10,6 +10,11 @@ package modelos;
  */
 public class Libro {
 
-    private final isbn;
+    private final int isbn;
+    private final String titulo;
+    private Autor autor;
+    
+    
+    
     
 }
