@@ -16,8 +16,7 @@ import java.util.Scanner;
 public class SistemaBiblioteca {
 
     public static void main(String[] args) {
-
-       System.out.println("galleta a 500");
+       Scanner Leer = new Scanner(System.in);
        System.out.println("===== SISTEMA DE GESTIÓN DE BIBLIOTECA=====");
        System.out.println("1.  CREAR NUEVA CATEGORIA");
        System.out.println("2.  AGREGAR NUEVO LIBRO");
