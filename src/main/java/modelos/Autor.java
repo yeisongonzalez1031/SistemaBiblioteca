@@ -10,17 +10,17 @@ package modelos;
  */
 public class Autor {
     private static int id;
-    private final String nombre = "Juan";
+    private final String nombre;
     private String pais;
-    private final int anioNacimiento = 2007;
+    private final int anioNacimiento;
 
-    public Autor() {
-    }
 
-    public Autor(String pais, int nombre) {
+    public Autor(final String nombre, String pais, final int anioNacimiento) {
+        this.nombre = nombre;
         this.pais = pais;
-        this.nombre= nombre;
+        this.anioNacimiento = anioNacimiento;
     }
+    
 
     public static int getId() {
         return id;
