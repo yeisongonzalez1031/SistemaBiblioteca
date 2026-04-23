@@ -29,8 +29,8 @@ public class SistemaBiblioteca {
        System.out.println("9.  VER MULTAS ACUMULADAS");
        System.out.println("10. VER ESTADISTICAS");
        System.out.println("11. SALIR");
+       int respuesta = Leer.nextInt();
        
-       int respuesta;
        
        switch(respuesta){
        
