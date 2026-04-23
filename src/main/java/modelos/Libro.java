@@ -10,8 +10,8 @@ package modelos;
  */
 public class Libro {
 
-    private final int isbn = 123456;
-    private final String titulo = "cien anios de seriedad";
+    private final int isbn;
+    private final String titulo;
     private Autor autor;
     private Categoria categoria;
     
