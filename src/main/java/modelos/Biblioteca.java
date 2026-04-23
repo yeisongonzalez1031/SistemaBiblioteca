@@ -8,6 +8,6 @@ package modelos;
  *
  * @author ESTUDIANTE
  */
-public class Persona {
+public class Biblioteca {
     
 }
