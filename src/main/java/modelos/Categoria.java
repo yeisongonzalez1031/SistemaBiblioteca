@@ -12,19 +12,17 @@ import java.util.ArrayList;
  */
 public class Categoria {
     
-   private final String id;
-   private final String nombre; 
+   private final String id = "123456";
+   private final String nombre = "rambo"; 
    private ArrayList<Libro> libros;
    
    public Categoria(){
    }
+
+    public Categoria(ArrayList<Libro> libros) {
+        this.libros = libros;
+    }
    
-   public Categoria(String id, String nombre, ArrayList<Libro> libros){
-   this.id = id;
-   this.libros = libros;
-   this.nombre = nombre;
-   
-   }
 
     public ArrayList<Libro> getLibros() {
         return libros;
