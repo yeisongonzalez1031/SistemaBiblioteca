@@ -15,12 +15,11 @@ public class Libro {
     private Autor autor;
     private Categoria categoria;
     
-    public Libro(){
-    }
-
-    public Libro(Autor autor, Categoria categoria) {
+    public Libro(Autor autor, Categoria categoria, final int isbn, final String titulo) {
         this.autor = autor;
-        this.categoria= categoria;
+        this.categoria = categoria;
+        this.isbn = isbn;
+        this.titulo = titulo;
     }
 
     public Autor getAutor() {
