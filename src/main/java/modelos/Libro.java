@@ -9,5 +9,7 @@ package modelos;
  * @author ESTUDIANTE
  */
 public class Libro {
+
+    private final isbn;
     
 }

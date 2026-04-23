@@ -15,6 +15,5 @@ public class Biblioteca {
     private ArrayList<Categoria> categorias;
     private ArrayList<Autor> autores;
     private ArrayList<Prestamo> prestamos;
-    
-    
+ 
 }
