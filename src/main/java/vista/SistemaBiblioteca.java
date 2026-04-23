@@ -16,7 +16,6 @@ import modelos.Prestamo;
 public class SistemaBiblioteca {
 
     public static void main(String[] args) {
-<<<<<<< HEAD
        System.out.println("galleta a 500");
        System.out.println("===== SISTEMA DE GESTIÓN DE BIBLIOTECA=====");
        System.out.println("1. CREAR NUEVA CATEGORIA");
@@ -30,8 +29,5 @@ public class SistemaBiblioteca {
        System.out.println("9. VER MULTAS ACUMULADAS");
        System.out.println("10. VER ESTADISTICAS");
        System.out.println("11. SALIR");
-=======
-      
->>>>>>> 35ab63a23b00172515fc3000adc57b54d1dc0dc5
     }
 }
