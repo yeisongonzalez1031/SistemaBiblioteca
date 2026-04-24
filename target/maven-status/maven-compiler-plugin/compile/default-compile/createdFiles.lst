@@ -1,4 +1,6 @@
 modelos\Biblioteca.class
 modelos\Autor.class
+modelos\Libro.class
 modelos\Categoria.class
+vista\SistemaBiblioteca.class
 modelos\Prestamo.class
